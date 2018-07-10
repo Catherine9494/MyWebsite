@@ -1,1 +1,39 @@
-Main css page
+body {
+	background-color: lightgrey;
+}
+.login {
+	width: 100px;
+	display: block;
+	text-align: right;
+	font-size: 12px;
+	color: azure;
+	position: relative;
+	background-color: red;
+}
+.bag{
+	width: 100%;
+	text-align: right;
+	font-size: 14px;
+	background-color: orange;
+}
+h1 { 
+    display: block;
+    background-color: lightblue;
+}
+.topnavigator {
+	display: block;
+	background-color: lightgreen;
+	height: 40px;
+}
+.content {
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+	background-color: white;
+	height: 400px;
+}
+.footer {
+	text-align: 100%;
+	background-color: pink;
+	height: 150px;
+}
