@@ -14,7 +14,13 @@
 		<a href="html link">Assassin club login</a>
 	</div>
 	<div class="bag">
-		<button id="shoppingbag">Shopping Bag</button>
+		<button onclick="myFunction()">Shopping Bag</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
 	</div>
 	<h1 style="text-align:center">ASSASSIN</h1>
 	<div class="search"><p>Search supposed to be here</p></div>
@@ -25,10 +31,7 @@
 		<a href="html link">Day Dream</a>
 		<a href="html link">Sunrise</a>
 	</div>
-	<div class="content">
-	<a href="html link"><img class="Red" src="../Red.jpeg"></a><!-- how to adjust sizing I need it to be inside a link so it could lead me to a page-->
-	<a href="html link">picture 2</a>
-	<a href="html link">picture 3</a>
+	<div class="content"><ul><li><a href="html link"><img border="1px" alt="Red" src="../Red.jpeg" width="600" height="500"></a><!-- how to adjust sizing I need it to be inside a link so it could lead me to a page--></li><li><a href="html link"><img border="1px" alt="White" src="../White.jpeg" width="600" height="500"></a></li><li><a href="html link"><img border="1px" alt="Ivory" src="../Ivory.jpeg" width="600" height="500"></a></li></ul>
 	</div>
 	<div class="slotholder">
 		<a href="">Expedite shipping</a>
@@ -41,11 +44,11 @@
 	<a href="html link">Useful Info</a>
 	<a href="html link">Assassin club</a>
 	<a href="html link">Newsletter & Social</a>
-	</div>
-	<form action="/action_page.php">
+	<form class="subscribe" action="/action_page.php">
 Receive exclusive access to new collections, sales and events<input type="text" name="e-mail address" value="Your Email address">
-<input type="Submit" value="Submit">  <!-- how to do that using Java script and how to insert link to subscribe page--> 
+<input type="Submit" value="Submit">  <!-- how to do that using Java script and how to insert link to subscribe page, I can't have it all in one line--> 
 <span></span>
 </form>
+</div>
 </body>
 </html>

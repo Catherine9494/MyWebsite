@@ -3,16 +3,17 @@ body {
 }
 .login {
 	width: 100px;
-	display: block;
-	text-align: right;
+	display: inline-block;
+	text-align: left;
 	font-size: 12px;
 	color: azure;
 	position: relative;
 	background-color: red;
 }
 .red {
-	width: 100px;
-	height: 100px;
+	width: 400px;
+	height: 200px;
+
 }
 .bag{
 	width: 100%;
@@ -24,6 +25,12 @@ h1 {
     display: block;
     background-color: lightblue;
 }
+.search {
+	display: block;
+	background-color: grey;
+	height: 30px;
+	text-align: right;
+}
 .topnavigator {
 	display: block;
 	background-color: lightgreen;
@@ -34,10 +41,24 @@ h1 {
     margin: 0 auto;
     text-align: center;
 	background-color: white;
-	height: 400px;
+	height: 1600px;
+} /* I can choose any height for any div?*/
+.top {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slotholder {
+	text-align: 100%;
+	background-color: lightblue;
+	height:80px;
 }
 .footer {
 	text-align: 100%;
 	background-color: pink;
-	height: 150px;
+	height: 100px;
+}
+.subscribe {
+	text-align: left;
 }
